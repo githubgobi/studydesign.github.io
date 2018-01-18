@@ -41,10 +41,18 @@ p.small {
   font-size: 0.8em;
 }
 
-a,
+a
 a:visited,
+{
+  color: black;
+  font-weight: 600;
+}
+
+
+
+
 a:hover {
-  color: #333;
+  color: white;
   font-weight: 600;
 }
 
