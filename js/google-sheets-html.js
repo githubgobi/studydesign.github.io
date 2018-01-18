@@ -16,7 +16,7 @@ var visualization;
 
 function drawVisualization() {
     var query = new google.visualization.Query('https://docs.google.com/spreadsheets/d/1JZ8vF6gcFKv9rQV_2c6HUhT2xa7PP5As2_wCnhRroOs/edit?usp=sharing');
-    query.setQuery('SELECT A, B, C, D, E, F label A "S.No", B "College Name", C "Address", D "URL", E "Campuse(s)", F "University"');
+    query.setQuery('SELECT A, B, C, H, E, F label A "S.No", B "College Name", C "Address", H "URL", E "Campuse(s)", F "University"');
     query.send(handleQueryResponse);
 }
 
